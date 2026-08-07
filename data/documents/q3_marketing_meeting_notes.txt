@@ -1,0 +1,22 @@
+Meeting Notes — Q3 Marketing Strategy Sync
+Date: July 14, 2026
+Attendees: Priya Nair (Marketing Lead), Jordan Lee (Growth), Sam Okafor (Content), Wei Zhang (Analytics)
+
+Summary of Discussion
+
+Priya opened the meeting by reviewing Q2 performance. Email campaign open rates increased from 18% to 24% following the switch to personalized subject lines, but click-through rates remained flat at around 3.1%. The team agreed that the landing page experience, not the email content, is likely the bottleneck, since bounce rate on the pricing page is currently 68%.
+
+Jordan presented growth channel data showing that paid search continues to outperform paid social on cost per acquisition, at $42 versus $67 respectively. However, paid social is driving higher lifetime value customers, with an average LTV of $340 compared to $210 from paid search. The team decided to shift 15% of the paid social budget into a new LinkedIn campaign targeting operations managers at mid-size logistics companies, since this segment showed the highest conversion rate in last month's test.
+
+Sam raised concerns about content production bandwidth, noting that the blog has fallen behind its publishing schedule by three weeks due to two team members being out on leave. It was agreed that two guest writers will be brought on for the next six weeks to catch up on the backlog, with a budget cap of $3,000 for freelance content.
+
+Wei shared updated attribution modeling showing that the current last-click model is likely undercounting the influence of organic social content earlier in the funnel. The team agreed to pilot a data-driven attribution model in Q4, with Wei owning the technical implementation and Jordan owning the budget reallocation decisions that result from it.
+
+Action Items
+1. Priya to redesign the pricing page with a simplified layout and a single clear call-to-action, target completion by July 28.
+2. Jordan to set up the new LinkedIn campaign targeting logistics operations managers, launch by August 1.
+3. Sam to onboard two freelance writers by July 21 and clear the content backlog by August 15.
+4. Wei to complete a first draft of the data-driven attribution model by September 1, ahead of the Q4 planning cycle.
+
+Next Meeting
+The team will reconvene on July 28 to review pricing page performance and confirm the LinkedIn campaign is tracking correctly before the full budget shift takes effect.

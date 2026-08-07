@@ -1,0 +1,25 @@
+Product Documentation — SkyCart API v3
+
+Overview
+SkyCart API v3 is a REST API that allows third-party developers to integrate shopping cart functionality into their own applications. It supports product catalog management, cart operations, checkout flows, and order tracking. The API uses standard HTTP methods and returns responses in JSON format. Authentication is handled via OAuth 2.0 bearer tokens, which must be included in the Authorization header of every request.
+
+Rate Limits
+Free tier accounts are limited to 100 requests per minute and 10,000 requests per day. Paid tier accounts on the Growth plan receive 1,000 requests per minute, and Enterprise plan accounts have custom limits negotiated with the SkyCart sales team. Exceeding the rate limit returns a 429 status code along with a Retry-After header indicating how many seconds to wait before retrying.
+
+Creating a Cart
+To create a new cart, send a POST request to /v3/carts with an empty JSON body. The response includes a unique cart_id that must be used in all subsequent requests related to that cart. Carts automatically expire after 24 hours of inactivity, after which the cart_id becomes invalid and a new cart must be created.
+
+Adding Items to a Cart
+Items are added by sending a POST request to /v3/carts/{cart_id}/items with a JSON body containing the product_id, quantity, and optional variant_id for products with size or color variants. If the requested quantity exceeds available stock, the API returns a 409 conflict response along with the current available stock level.
+
+Checkout Process
+Checkout is a three-step process: first, a shipping address is submitted via POST to /v3/carts/{cart_id}/shipping; second, a payment method is submitted via POST to /v3/carts/{cart_id}/payment; third, the order is finalized via POST to /v3/carts/{cart_id}/checkout. Once checkout is finalized, the cart becomes read-only and an order_id is returned, which can be used to track the order status.
+
+Webhooks
+SkyCart supports webhooks for order status changes, including order.created, order.shipped, order.delivered, and order.cancelled events. Webhook endpoints must respond with a 200 status code within 5 seconds, or SkyCart will retry delivery up to three times with exponential backoff before marking the webhook as failed.
+
+Error Handling
+All error responses follow a consistent format containing an error_code, a human-readable message, and in some cases a details object with field-specific validation errors. Common error codes include INVALID_CART, OUT_OF_STOCK, PAYMENT_DECLINED, and RATE_LIMIT_EXCEEDED. Developers are encouraged to implement retry logic with exponential backoff for 5xx server errors, but should not automatically retry 4xx client errors without first correcting the request.
+
+Sandbox Environment
+A sandbox environment is available at sandbox-api.skycart.com for testing integrations without affecting real inventory or processing real payments. Sandbox test card numbers are provided in the developer dashboard, and all sandbox orders are automatically purged every 7 days.

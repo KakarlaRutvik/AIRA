@@ -1,0 +1,24 @@
+Remote Work Policy — Acme Robotics Inc.
+
+Effective Date: January 2026
+
+1. Eligibility
+All full-time employees who have completed their 90-day probationary period are eligible to apply for remote work arrangements. Part-time employees and contractors must receive written approval from their department head and HR before working remotely on a regular basis. Employees in roles that require physical presence, such as hardware lab technicians and warehouse staff, are generally not eligible for remote arrangements except on a case-by-case basis approved by their VP.
+
+2. Work Hours and Availability
+Remote employees are expected to be available during core collaboration hours, which are 10:00 AM to 3:00 PM in their local time zone, unless otherwise agreed with their manager. Employees must keep their calendar up to date and respond to messages on the company chat tool within four business hours during the workday. Flexibility outside core hours is permitted as long as deliverables are met on schedule.
+
+3. Equipment and Expenses
+The company provides a one-time home office stipend of $750 for new remote employees, covering items such as a monitor, ergonomic chair, or desk. Ongoing internet costs are reimbursed up to $50 per month with a submitted receipt. Employees are responsible for maintaining a secure home network and must use the company VPN when accessing internal systems.
+
+4. Performance Reviews
+Remote employees are evaluated using the same criteria as in-office employees. Quarterly check-ins are mandatory and must include a review of goals from the previous quarter and updated objectives for the next quarter. Managers are expected to conduct at least one video call per week with each direct report working remotely.
+
+5. Security Requirements
+All remote employees must enable full-disk encryption on their work laptop, use company-approved password managers, and complete the annual security awareness training. Devices that fail a security compliance check will have their VPN access suspended until the issue is resolved with IT.
+
+6. Travel to Headquarters
+Remote employees are required to travel to the Austin headquarters at least twice per year for team offsites. Travel and accommodation costs for these visits are covered by the company, provided they are booked at least three weeks in advance through the internal travel portal.
+
+7. Termination of Remote Arrangement
+The company reserves the right to revoke remote work privileges if performance concerns arise, if the arrangement is no longer suitable for the role, or if security compliance is repeatedly violated. Employees will be given a 30-day notice and an opportunity to address concerns before any such change takes effect, except in cases of serious security violations.
